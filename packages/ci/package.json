@@ -1,0 +1,18 @@
+{
+    "name": "@iac-factory/ci",
+    "private": true,
+    "version": "0.0.41",
+    "main": "index.js",
+    "author": "Jacob B. Sanders <jacob.sanders@cloudhybrid.io> (https://github.com/iac-factory)",
+    "repository": "https://github.com/iac-factory/aws-node-s3-utilities",
+    "license": "BSD-2-Clause",
+    "scripts": {
+        "build": "tsc --build $(pwd)",
+        "start": "npm run build && ts-node $(pwd)",
+        "execute": "npm run build && npm install --global $(pwd) && $(basename $(pwd))"
+    },
+    "bin": {
+        "ci": "index.js",
+        "@iac-factory/ci": "index.js"
+    }
+}

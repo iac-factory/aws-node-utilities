@@ -1,0 +1,28 @@
+{
+    "name": "@iac-factory/s3-tagging",
+    "version": "0.0.41",
+    "description": "S3 Tagging CLI Application with User Prompt(s)",
+    "main": "index.js",
+    "author": "Jacob B. Sanders <jacob.sanders@cloudhybrid.io> (https://github.com/iac-factory)",
+    "repository": "https://github.com/iac-factory/aws-node-s3-utilities",
+    "license": "BSD-2-Clause",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.171.0",
+        "@aws-sdk/credential-providers": "^3.171.0",
+        "ansi-colors": "^4.1.3"
+    },
+    "scripts": {
+        "build": "tsc --build $(pwd)",
+        "start": "npm run build && ts-node $(pwd)",
+        "clear": "npm run build && ts-node $(pwd) -- --clear",
+        "execute": "npm run build && npm install --global $(pwd) && $(basename $(pwd))"
+    },
+    "bin": {
+        "s3-tagging": "index.js",
+        "@iac-factory/s3-tagging": "index.js"
+    },
+    "gitHead": "80c4f66f03254b847f15fe21105553e75450cfcf"
+}
