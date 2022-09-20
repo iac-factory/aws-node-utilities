@@ -1,5 +1,5 @@
 {
-    "name": "@iac-factory/aws-node-s3-utilities",
+    "name": "@iac-factory/aws-node-utilities",
     "private": true,
     "author": "Jacob B. Sanders <jacob.sanders@cloudhybrid.io> (https://github.com/iac-factory)",
     "license": "BSD-3-Clause",
