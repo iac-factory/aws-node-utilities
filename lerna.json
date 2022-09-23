@@ -1,7 +1,10 @@
 {
-  "packages": [
-    "packages/*"
-  ],
-  "useNx": false,
-  "version": "0.0.42"
+    "packages": [
+        "packages/*"
+    ],
+    "useNx": false,
+    "version": "0.0.42",
+    "workspaces": [
+        "packages/**"
+    ]
 }
