@@ -1,6 +1,6 @@
 {
     "name": "@iac-factory/s3-bucket-list",
-    "version": "0.0.42",
+    "version": "0.0.43",
     "description": "...",
     "main": "index.js",
     "author": "Jacob B. Sanders <jacob.sanders@cloudhybrid.io> (https://github.com/iac-factory)",
@@ -11,7 +11,7 @@
     },
     "dependencies": {
         "@aws-sdk/client-s3": "^3.171.0",
-        "@iac-factory/aws-credentials": "^0.0.42"
+        "@iac-factory/aws-credentials": "^0.0.43"
     },
     "scripts": {
         "build": "tsc --build $(pwd)",
