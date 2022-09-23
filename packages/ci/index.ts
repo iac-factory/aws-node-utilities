@@ -87,6 +87,18 @@ const Packages = async () => {
         force: true, recursive: false
     });
 
+    try {
+        Subprocess.spawnSync("git", [ "push" ], {
+            shell: false,
+            env: process.env,
+            cwd: process.cwd(),
+            stdio: "inherit",
+            encoding: "utf-8"
+        });
+    } catch ( exception ) {
+        /*** Continue */
+    }
+
     process.exit(0);
 } )
 ();
