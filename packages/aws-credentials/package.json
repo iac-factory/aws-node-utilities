@@ -1,22 +1,20 @@
 {
-    "name": "@iac-factory/ci",
-    "private": true,
-    "version": "0.0.41",
+    "name": "@iac-factory/aws-credentials",
+    "version": "0.0.8",
     "main": "index.js",
     "author": "Jacob B. Sanders <jacob.sanders@cloudhybrid.io> (https://github.com/iac-factory)",
     "repository": "https://github.com/iac-factory/aws-node-s3-utilities",
-    "license": "BSD-2-Clause",
+    "license": "BSD-3-Clause",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
+    "dependencies": {
+        "@aws-sdk/credential-providers": "^3.171.0"
+    },
     "scripts": {
         "build": "tsc --build $(pwd)",
         "start": "npm run build && ts-node $(pwd)",
+        "clear": "npm run build && ts-node $(pwd) -- --clear",
         "execute": "npm run build && npm install --global $(pwd) && $(basename $(pwd))"
-    },
-    "devDependencies": {
-        "@commitlint/cli": "^17.1.2",
-        "@commitlint/prompt-cli": "^17.1.2"
-    },
-    "bin": {
-        "ci": "index.js",
-        "@iac-factory/ci": "index.js"
     }
 }

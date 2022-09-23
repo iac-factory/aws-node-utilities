@@ -8,7 +8,7 @@ import { Credential } from "@iac-factory/aws-credentials";
 
 class Service extends Credential {
     /*** AWS S3 API Client */
-    service?: AWS.Types["Client"]["S3"];
+    service?: AWS.Types["Client"]["SM"];
 
     credentials?: AWS.INI;
 
@@ -51,7 +51,7 @@ class Service extends Credential {
             secretAccessKey: client.key
         };
 
-        client.service = new AWS.Interface.Client.S3( { ... client.credentials }  );
+        client.service = new AWS.Interface.Client.SM( { ... client.credentials }  );
 
         return client.service;
     }

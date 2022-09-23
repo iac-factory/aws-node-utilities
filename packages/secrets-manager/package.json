@@ -1,7 +1,7 @@
 {
-    "name": "@iac-factory/s3-tagging",
+    "name": "@iac-factory/secrets-manager",
     "version": "0.0.41",
-    "description": "S3 Tagging CLI Application with User Prompt(s)",
+    "description": "Secrets-Manager Wrapper",
     "main": "index.js",
     "author": "Jacob B. Sanders <jacob.sanders@cloudhybrid.io> (https://github.com/iac-factory)",
     "repository": "https://github.com/iac-factory/aws-node-utilities",
@@ -10,18 +10,13 @@
         "registry": "https://npm.pkg.github.com"
     },
     "dependencies": {
-        "@aws-sdk/client-s3": "^3.171.0",
-        "@iac-factory/aws-credentials": "*",
-        "ansi-colors": "^4.1.3"
+        "@aws-sdk/client-secrets-manager": "^3.171.0",
+        "@iac-factory/aws-credentials": "*"
     },
     "scripts": {
         "build": "tsc --build $(pwd)",
         "start": "npm run build && ts-node $(pwd)",
         "clear": "npm run build && ts-node $(pwd) -- --clear",
         "execute": "npm run build && npm install --global $(pwd) && $(basename $(pwd))"
-    },
-    "bin": {
-        "s3-tagging": "index.js",
-        "@iac-factory/s3-tagging": "index.js"
     }
 }
