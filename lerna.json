@@ -4,6 +4,7 @@
     ],
     "useNx": false,
     "version": "0.0.42",
+    "useWorkspaces": true,
     "workspaces": [
         "packages/**"
     ]
