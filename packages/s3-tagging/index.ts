@@ -11,7 +11,9 @@ import type { AWS } from "./src";
 /***
  * Imports
  */
-const { S3, Prompt, Handler, Color, Modifiers, Interface } = $;
+const { S3, Prompt, Handler } = $;
+
+import { Color, Modifiers, Interface } from "utilities";
 
 /***
  * TTY Standard-Output Color + Styling Object Wrapper

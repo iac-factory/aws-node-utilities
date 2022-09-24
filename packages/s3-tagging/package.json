@@ -11,8 +11,8 @@
     },
     "dependencies": {
         "@aws-sdk/client-s3": "^3.171.0",
-        "@iac-factory/aws-credentials": "^0.0.43",
-        "ansi-colors": "^4.1.3"
+        "utilities": "*",
+        "@iac-factory/aws-credentials": "*"
     },
     "scripts": {
         "build": "tsc --build $(pwd)",

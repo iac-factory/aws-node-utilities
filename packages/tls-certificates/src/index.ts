@@ -3,7 +3,7 @@ import Path from "path";
 
 import Module from "./certificates.json";
 
-import { Logger } from "@iac-factory/utilities";
+import { Logger } from "utilities";
 
 export module TLS {
     const $ = { initialize: false };

@@ -22,7 +22,7 @@
         "@iac-factory/aws-secrets-manager": "./packages/secrets-manager",
         "@iac-factory/s3-bucket-list": "./packages/s3-bucket-list",
         "@iac-factory/tls-certificates": "./packages/tls-certificates",
-        "@iac-factory/utilities": "./packages/utilities"
+        "utilities": "./packages/utilities"
     },
     "workspaces": [
         "packages/**"
