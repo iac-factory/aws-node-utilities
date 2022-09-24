@@ -1,6 +1,6 @@
 {
     "name": "@iac-factory/secrets-manager",
-    "version": "0.0.43",
+    "version": "0.0.44",
     "description": "Secrets-Manager Wrapper",
     "main": "index.js",
     "author": "Jacob B. Sanders <jacob.sanders@cloudhybrid.io> (https://github.com/iac-factory)",
@@ -11,7 +11,7 @@
     },
     "dependencies": {
         "@aws-sdk/client-secrets-manager": "^3.171.0",
-        "@iac-factory/aws-credentials": "^0.0.43"
+        "@iac-factory/aws-credentials": "^0.0.44"
     },
     "scripts": {
         "build": "tsc --build $(pwd)",

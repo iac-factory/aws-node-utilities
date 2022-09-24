@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.44](https://github.com/iac-factory/aws-node-s3-utilities/compare/v0.0.43...v0.0.44) (2022-09-24)
+
+**Note:** Version bump only for package @iac-factory/aws-credentials
+
+
+
+
+
 ## [0.0.43](https://github.com/iac-factory/aws-node-s3-utilities/compare/v0.0.42...v0.0.43) (2022-09-23)
 
 **Note:** Version bump only for package @iac-factory/aws-credentials

@@ -1,6 +1,6 @@
 {
     "name": "@iac-factory/tls-certificates",
-    "version": "0.0.43",
+    "version": "0.0.44",
     "description": "...",
     "author": "Jacob B. Sanders <jacob.sanders@cloudhybrid.io> (https://github.com/iac-factory)",
     "license": "BSD-3-Clause",
