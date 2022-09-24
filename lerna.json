@@ -3,7 +3,7 @@
         "packages/*"
     ],
     "useNx": false,
-    "version": "0.0.44",
+    "version": "0.0.46",
     "useWorkspaces": true,
     "workspaces": [
         "packages/**"

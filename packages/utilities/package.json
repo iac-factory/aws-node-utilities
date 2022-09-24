@@ -1,6 +1,6 @@
 {
     "name": "utilities",
-    "version": "0.0.45",
+    "version": "0.0.46",
     "private": true,
     "description": "AWS Package Utilities, Internal",
     "author": "Jacob B. Sanders <jacob.sanders@cloudhybrid.io> (https://github.com/iac-factory)",

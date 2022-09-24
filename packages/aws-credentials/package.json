@@ -1,6 +1,6 @@
 {
     "name": "@iac-factory/aws-credentials",
-    "version": "0.0.44",
+    "version": "0.0.46",
     "main": "index.js",
     "author": "Jacob B. Sanders <jacob.sanders@cloudhybrid.io> (https://github.com/iac-factory)",
     "repository": "https://github.com/iac-factory/aws-node-s3-utilities",
